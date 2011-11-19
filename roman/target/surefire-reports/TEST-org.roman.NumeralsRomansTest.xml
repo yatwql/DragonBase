@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.057" errors="0" skipped="0" tests="18" name="org.roman.NumeralsRomansTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.4-b02-402"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M3527"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/wang/work/codebase/CandidateTest/roman"/>
+    <property name="java.runtime.version" value="1.6.0_29-b11-402-11M3527"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/wang/work/codebase/CandidateTest/roman"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/wang/work/codebase/CandidateTest/roman/target/surefire/surefirebooter2366592479456922023.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/qx/pwcxxjjn0bj9gcv_zsbptw_c0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="EUC_CN"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="surefire.test.class.path" value="/Users/wang/work/codebase/CandidateTest/roman/target/test-classes:/Users/wang/work/codebase/CandidateTest/roman/target/classes:/Users/wang/.m2/repository/junit/junit/4.8/junit-4.8.jar:/Users/wang/.m2/repository/org/jbehave/jbehave-maven-plugin/3.5.2/jbehave-maven-plugin-3.5.2.jar:/Users/wang/.m2/repository/org/jbehave/jbehave-core/3.5.2/jbehave-core-3.5.2.jar:/Users/wang/.m2/repository/junit/junit-dep/4.8.2/junit-dep-4.8.2.jar:/Users/wang/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/wang/.m2/repository/org/hamcrest/hamcrest-library/1.1/hamcrest-library-1.1.jar:/Users/wang/.m2/repository/org/hamcrest/hamcrest-integration/1.1/hamcrest-integration-1.1.jar:/Users/wang/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/wang/.m2/repository/commons-io/commons-io/1.4/commons-io-1.4.jar:/Users/wang/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/Users/wang/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.jar:/Users/wang/.m2/repository/org/freemarker/freemarker/2.3.16/freemarker-2.3.16.jar:/Users/wang/.m2/repository/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar:/Users/wang/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar:/Users/wang/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:/Users/wang/.m2/repository/org/apache/maven/maven-plugin-api/2.0.11/maven-plugin-api-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/maven-artifact/2.0.11/maven-artifact-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/maven-project/2.0.11/maven-project-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/maven-settings/2.0.11/maven-settings-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/maven-profile/2.0.11/maven-profile-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/maven-model/2.0.11/maven-model-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.11/maven-artifact-manager-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/maven-repository-metadata/2.0.11/maven-repository-metadata-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar:/Users/wang/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.11/maven-plugin-registry-2.0.11.jar:/Users/wang/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.1/plexus-interpolation-1.1.jar:/Users/wang/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/wang/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/Users/wang/.m2/repository/org/codehaus/plexus/plexus-archiver/1.2/plexus-archiver-1.2.jar:/Users/wang/.m2/repository/org/codehaus/plexus/plexus-io/1.0.1/plexus-io-1.0.1.jar:/Users/wang/.m2/repository/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.7.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/wang"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="EUC_CN"/>
+    <property name="user.name" value="wang"/>
+    <property name="java.class.path" value="/Users/wang/work/codebase/CandidateTest/roman/target/test-classes:/Users/wang/work/codebase/CandidateTest/roman/target/classes:/Users/wang/.m2/repository/junit/junit/4.8/junit-4.8.jar:/Users/wang/.m2/repository/org/jbehave/jbehave-maven-plugin/3.5.2/jbehave-maven-plugin-3.5.2.jar:/Users/wang/.m2/repository/org/jbehave/jbehave-core/3.5.2/jbehave-core-3.5.2.jar:/Users/wang/.m2/repository/junit/junit-dep/4.8.2/junit-dep-4.8.2.jar:/Users/wang/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/wang/.m2/repository/org/hamcrest/hamcrest-library/1.1/hamcrest-library-1.1.jar:/Users/wang/.m2/repository/org/hamcrest/hamcrest-integration/1.1/hamcrest-integration-1.1.jar:/Users/wang/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/wang/.m2/repository/commons-io/commons-io/1.4/commons-io-1.4.jar:/Users/wang/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/Users/wang/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.jar:/Users/wang/.m2/repository/org/freemarker/freemarker/2.3.16/freemarker-2.3.16.jar:/Users/wang/.m2/repository/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar:/Users/wang/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar:/Users/wang/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:/Users/wang/.m2/repository/org/apache/maven/maven-plugin-api/2.0.11/maven-plugin-api-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/maven-artifact/2.0.11/maven-artifact-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/maven-project/2.0.11/maven-project-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/maven-settings/2.0.11/maven-settings-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/maven-profile/2.0.11/maven-profile-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/maven-model/2.0.11/maven-model-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/maven-artifact-manager/2.0.11/maven-artifact-manager-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/maven-repository-metadata/2.0.11/maven-repository-metadata-2.0.11.jar:/Users/wang/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-2/wagon-provider-api-1.0-beta-2.jar:/Users/wang/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.11/maven-plugin-registry-2.0.11.jar:/Users/wang/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.1/plexus-interpolation-1.1.jar:/Users/wang/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/wang/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/Users/wang/.m2/repository/org/codehaus/plexus/plexus-archiver/1.2/plexus-archiver-1.2.jar:/Users/wang/.m2/repository/org/codehaus/plexus/plexus-io/1.0.1/plexus-io-1.0.1.jar:/Users/wang/.m2/repository/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="/Users/wang/work/codebase/CandidateTest/roman/target/surefire/surefirebooter2366592479456922023.jar /Users/wang/work/codebase/CandidateTest/roman/target/surefire/surefire495637885411318526tmp /Users/wang/work/codebase/CandidateTest/roman/target/surefire/surefire2109715606879440136tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_29"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/wang/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_29-402"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.005" classname="org.roman.NumeralsRomansTest" name="should_convert_1_to_roman"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_convert_5_to_roman"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_convert_9_to_roman"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_convert_10_to_roman"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_convert_50_to_roman"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_convert_63_to_roman"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_convert_100_to_roman"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_convert_448_to_roman"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_convert_500_to_roman"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_convert_1000_to_roman"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_convert_1944_to_roman"/>
+  <testcase time="0.001" classname="org.roman.NumeralsRomansTest" name="should_convert_2008_to_roman"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_convert_2751_to_roman"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_throw_exception_convert_negative"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_throw_exception_convert_zero"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_throw_exception_convert_larger_than_4000"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_throw_exception_pass_inconrrect_strategy"/>
+  <testcase time="0" classname="org.roman.NumeralsRomansTest" name="should_convert_with_correct_strategy"/>
+</testsuite>
